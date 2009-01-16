@@ -1,0 +1,71 @@
+﻿<Page 
+    x:Class="SampleApplication.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Home"
+    >
+    <Grid>
+        <StackPanel>
+            <TextBlock>
+                <Hyperlink NavigateUri="/Pages/Layout/GridLayoutPage.xaml">
+                    <Run>Grid Layout</Run>
+                </Hyperlink>
+            </TextBlock>
+
+            <TextBlock>
+                <Hyperlink NavigateUri="/Pages/Layout/StackPanelPage.xaml">
+                    <Run>Stack Panel Layout</Run>
+                </Hyperlink>
+            </TextBlock>
+
+            <TextBlock>
+                <Hyperlink NavigateUri="/Pages/Layout/WrapPanelPage.xaml">
+                    <Run>Wrap Panel Layout</Run>
+                </Hyperlink>
+            </TextBlock>
+
+            <TextBlock>
+                <Hyperlink NavigateUri="/Pages/Layout/CanvasLayoutPage.xaml">
+                    <Run>Canvas Panel Layout</Run>
+                </Hyperlink>
+            </TextBlock>
+
+            <TextBlock>
+                <Hyperlink NavigateUri="/Pages/Layout/DockPanelPage.xaml">
+                    <Run>Dock Panel Layout</Run>
+                </Hyperlink>
+            </TextBlock>
+
+
+            <TextBlock>
+                <Hyperlink NavigateUri="/Pages/Inking/InkPage.xaml">
+                    <Run>Inking</Run>
+                </Hyperlink>
+            </TextBlock>
+
+            <TextBlock>
+                <Hyperlink NavigateUri="/Pages/FlowDocuments/FlowDocumentPage.xaml">
+                    <Run>Flow Documents</Run>
+                </Hyperlink>
+            </TextBlock>
+            
+            <TextBlock>
+                <Hyperlink NavigateUri="/Pages/Binding/BindingExamplePage.xaml">
+                    <Run>Binding to Objects</Run>
+                </Hyperlink>
+            </TextBlock>
+
+            <TextBlock>
+                <Hyperlink NavigateUri="/Pages/Binding/ValidationExamplePage.xaml">
+                    <Run>Binding to Objects with Validation</Run>
+                </Hyperlink>
+            </TextBlock>
+
+            <TextBlock>
+                <Hyperlink NavigateUri="/Pages/Interop/InteropPage.xaml">
+                    <Run>Windows Forms Interop</Run>
+                </Hyperlink>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

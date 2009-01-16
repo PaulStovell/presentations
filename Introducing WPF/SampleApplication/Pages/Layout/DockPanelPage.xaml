@@ -1,0 +1,14 @@
+﻿<Page x:Class="SampleApplication.Pages.Layout.DockPanelPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="DockPanel Layout"
+    >
+    <DockPanel>
+
+        <Button DockPanel.Dock="Top" Margin="7" Background="Red">Hello world</Button>
+        <Button DockPanel.Dock="Left" Margin="7" Background="Green">Hello world</Button>
+        <Button DockPanel.Dock="Right" Margin="7" Background="Blue">Hello world</Button>
+        <Button DockPanel.Dock="Bottom" Margin="7" Background="Yellow">Hello world</Button>
+        <Button Margin="7" Background="Pink">Hello world</Button>
+    </DockPanel>
+</Page>

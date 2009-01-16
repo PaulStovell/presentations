@@ -1,0 +1,11 @@
+﻿<Page x:Class="SampleApplication.Pages.Layout.CanvasLayoutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Canvas Layout"
+    >
+    <Canvas>
+        <Rectangle Canvas.Left="10" Canvas.Top="40" Margin="7" Width="100" Height="100" Fill="Red" />
+        <Rectangle Canvas.Right="20" Canvas.Bottom="20" Margin="7" Width="100" Height="100" Fill="Green" />
+        <Rectangle Canvas.Right="20" Canvas.Top="40" Margin="7" Width="100" Height="100" Fill="Blue" />
+    </Canvas>
+</Page>

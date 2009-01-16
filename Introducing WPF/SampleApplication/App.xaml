@@ -1,0 +1,51 @@
+﻿<Application
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="SampleApplication.App"
+    StartupUri="MainWindow.xaml"
+    >
+    <Application.Resources>
+    	<ResourceDictionary>
+    		<ResourceDictionary.MergedDictionaries>
+    			<ResourceDictionary Source="Resources/ImageResources.xaml"/>
+                <ResourceDictionary Source="Resources/ControlResources.xaml"/>
+    		</ResourceDictionary.MergedDictionaries>
+            
+    		<!-- A frame with no default chrome and some triggers to fade in and out between page navigations -->
+    		<Style TargetType="{x:Type Frame}">
+    			<Setter Property="Template">
+    				<Setter.Value>
+    					<ControlTemplate TargetType="{x:Type Frame}">
+    						<ContentPresenter ContentSource="Content" />
+    					</ControlTemplate>
+    				</Setter.Value>
+    			</Setter>
+    		</Style>
+
+    		<Style TargetType="{x:Type Window}">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="0,0">
+                            <GradientStop Color="#FF000000" Offset="0.019"/>
+                            <GradientStop Color="#FF17103D" Offset="0.96"/>
+                            <GradientStop Color="#FF5143A1" Offset="0.99"/>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+    		</Style>
+
+    		<Style TargetType="{x:Type TextBlock}">
+    			<Setter Property="FontSize" Value="14pt" />
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="TextWrapping" Value="WrapWithOverflow" />
+    		</Style>
+
+    		<Style TargetType="{x:Type Hyperlink}">
+    			<Setter Property="FontSize" Value="14pt" />
+    			<Setter Property="Foreground" Value="White" />
+    		</Style>
+        
+    	</ResourceDictionary>
+        
+    </Application.Resources>
+</Application>

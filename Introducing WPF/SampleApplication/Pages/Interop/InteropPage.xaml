@@ -1,0 +1,25 @@
+﻿<Page 
+    x:Class="SampleApplication.Pages.Interop.InteropPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:WF="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+    Title="InteropPage"
+    >
+    <DockPanel LastChildFill="False">
+        
+        <WindowsFormsHost>
+            <WF:DateTimePicker x:Name="_datePicker" />
+        </WindowsFormsHost>
+
+        <StackPanel>
+            <Button DockPanel.Dock="Top" Click="LaunchButton_Click">
+                <TextBlock Foreground="Black">Launch Windows Forms Application</TextBlock>
+            </Button>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding ElementName=_datePicker, Path=Value}">
+                </TextBlock>
+            </StackPanel>
+        </StackPanel>
+        
+    </DockPanel>
+</Page>

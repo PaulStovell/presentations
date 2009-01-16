@@ -1,0 +1,71 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{78669C3B-B0F5-4A40-B3E3-9912A70FD88E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TimesheetEntrySystem.DomainModel</RootNamespace>
+    <AssemblyName>TimesheetEntrySystem.DomainModel</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contexts\TechSupport\DataLayer\ITechSuppotDataService.cs" />
+    <Compile Include="Contexts\TechSupport\Entities\Customer.cs" />
+    <Compile Include="Contexts\TechSupport\Entities\SupportLog.cs" />
+    <Compile Include="Contexts\TechSupport\Entities\SupportLogEntry.cs" />
+    <Compile Include="Contexts\TechSupport\TechSupportSystem.cs" />
+    <Compile Include="Contexts\Timesheeting\DataLayer\ITimesheetingDataService.cs" />
+    <Compile Include="Contexts\Timesheeting\DataLayer\SqlTimesheetingDataService.cs" />
+    <Compile Include="Contexts\Timesheeting\Entities\Consultant.cs" />
+    <Compile Include="Contexts\Timesheeting\Entities\Customer.cs" />
+    <Compile Include="Contexts\Timesheeting\Entities\Entity.cs" />
+    <Compile Include="Contexts\Timesheeting\Entities\Invoice.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Contexts\Timesheeting\Entities\Timesheet.cs" />
+    <Compile Include="Contexts\Timesheeting\Entities\TimesheetEntry.cs" />
+    <Compile Include="Contexts\Timesheeting\Entities\TimesheetEntryCollection.cs" />
+    <Compile Include="Contexts\Timesheeting\Services\InvoiceGenerator.cs" />
+    <Compile Include="Contexts\Timesheeting\TimesheetSystem.cs" />
+    <Compile Include="Services\ExceptionReporter.cs" />
+    <Compile Include="Services\Log.cs" />
+    <Compile Include="Services\ObjectPool.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BoundaryContracts\" />
+    <Folder Include="Contexts\TechSupport\BoundaryAdapters\" />
+    <Folder Include="Contexts\Timesheeting\BoundaryAdapters\" />
+    <Folder Include="Contexts\Timesheeting\Diagrams\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

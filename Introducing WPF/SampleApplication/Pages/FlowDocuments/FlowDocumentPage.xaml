@@ -1,0 +1,56 @@
+﻿<Page x:Class="SampleApplication.Pages.FlowDocuments.FlowDocumentPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="FlowDocumentPage"
+    >
+    <Grid Background="White">
+        
+        <FlowDocumentReader Height="600" >
+            <FlowDocument FontFamily="Segoe UI" FontSize="9pt">
+                <Paragraph>
+                    <Bold>Some bold text in the paragraph.</Bold>
+                    Some text that is not bold.
+                    <CheckBox />
+                </Paragraph>
+
+                <List>
+                    <ListItem>
+                        <Paragraph>ListItem 1</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>ListItem 2</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>ListItem 3</Paragraph>
+                    </ListItem>
+                </List>
+
+                <Paragraph>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                    enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.
+                </Paragraph>
+                <Paragraph>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                    enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.
+                </Paragraph>
+                <Paragraph>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                    enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.
+                </Paragraph>
+                <Paragraph>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                    enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.
+                </Paragraph>
+
+            </FlowDocument>
+        </FlowDocumentReader>
+    </Grid>
+</Page>

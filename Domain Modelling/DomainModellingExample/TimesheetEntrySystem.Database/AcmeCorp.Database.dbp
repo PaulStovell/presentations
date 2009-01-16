@@ -1,0 +1,12 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "TimesheetEntrySystem.Database"
+   MSDTVersion = "80"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+   End
+   Begin DBRefFolder = "Database References"
+   End
+   Begin Folder = "Queries"
+   End
+End

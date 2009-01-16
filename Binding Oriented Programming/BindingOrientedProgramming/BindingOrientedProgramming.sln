@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingBasics.WindowsForms", "BindingBasics.WindowsForms\BindingBasics.WindowsForms.csproj", "{CDC76608-7CE1-48A9-87F3-5EA02236002C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example1.WindowsFormsSearchQuery", "Example1.WindowsFormsSearchQuery\Example1.WindowsFormsSearchQuery.csproj", "{B4318865-557B-427C-8D5B-60640D45BA1E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example2.WindowsFormsDropDowns", "Example2.WindowsFormsDropDowns\Example2.WindowsFormsDropDowns.csproj", "{F41BADFF-085D-47B7-8080-05852991FBF4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example3.WpfSearchQuery", "Example3.WpfSearchQuery\Example3.WpfSearchQuery.csproj", "{6E2181EF-8539-4406-8203-34ACC1AB4414}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example4.SecurityManager", "Example4.SecurityManager\Example4.SecurityManager.csproj", "{8EF40C7F-FDC9-4862-8E0D-6266A07D7DCF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example5.PollBinding", "Example5.PollBinding\Example5.PollBinding.csproj", "{3D8EFDE7-A194-49AE-BCA3-BC988E0108F7}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDC76608-7CE1-48A9-87F3-5EA02236002C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC76608-7CE1-48A9-87F3-5EA02236002C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC76608-7CE1-48A9-87F3-5EA02236002C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC76608-7CE1-48A9-87F3-5EA02236002C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4318865-557B-427C-8D5B-60640D45BA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4318865-557B-427C-8D5B-60640D45BA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4318865-557B-427C-8D5B-60640D45BA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4318865-557B-427C-8D5B-60640D45BA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41BADFF-085D-47B7-8080-05852991FBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41BADFF-085D-47B7-8080-05852991FBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41BADFF-085D-47B7-8080-05852991FBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41BADFF-085D-47B7-8080-05852991FBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2181EF-8539-4406-8203-34ACC1AB4414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2181EF-8539-4406-8203-34ACC1AB4414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2181EF-8539-4406-8203-34ACC1AB4414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2181EF-8539-4406-8203-34ACC1AB4414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF40C7F-FDC9-4862-8E0D-6266A07D7DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF40C7F-FDC9-4862-8E0D-6266A07D7DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF40C7F-FDC9-4862-8E0D-6266A07D7DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF40C7F-FDC9-4862-8E0D-6266A07D7DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8EFDE7-A194-49AE-BCA3-BC988E0108F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8EFDE7-A194-49AE-BCA3-BC988E0108F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8EFDE7-A194-49AE-BCA3-BC988E0108F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8EFDE7-A194-49AE-BCA3-BC988E0108F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScratchPad - CSharp", "ScratchPad - CSharp\ScratchPad - CSharp.csproj", "{B917448D-CBEF-4A03-A503-193C046A9497}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ScratchPad - VB", "ScratchPad - VB\ScratchPad - VB.vbproj", "{56130A92-8048-44E6-BC5B-C47AC692B52E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{790A0451-1E6D-4CD5-AE75-5D27D0BAEBBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToSql", "LinqToSql\LinqToSql.csproj", "{E2A9C31B-E07E-44B5-A90E-12D0979D04D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToXml", "LinqToXml\LinqToXml.csproj", "{62923A88-1AEE-4EE2-A593-70DEB50B1261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToObjects", "LinqToObjects\LinqToObjects.csproj", "{7AEF699F-A116-43D1-AEE4-C9FE2D042E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToCrm", "LinqToCrm\LinqToCrm.csproj", "{0557538D-4B7D-4EC0-A60E-64F2189008B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{CEDAFCFD-DB7E-41A2-AD9F-A70540FA7EA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B917448D-CBEF-4A03-A503-193C046A9497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B917448D-CBEF-4A03-A503-193C046A9497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B917448D-CBEF-4A03-A503-193C046A9497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B917448D-CBEF-4A03-A503-193C046A9497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56130A92-8048-44E6-BC5B-C47AC692B52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56130A92-8048-44E6-BC5B-C47AC692B52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56130A92-8048-44E6-BC5B-C47AC692B52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56130A92-8048-44E6-BC5B-C47AC692B52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A9C31B-E07E-44B5-A90E-12D0979D04D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A9C31B-E07E-44B5-A90E-12D0979D04D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A9C31B-E07E-44B5-A90E-12D0979D04D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A9C31B-E07E-44B5-A90E-12D0979D04D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62923A88-1AEE-4EE2-A593-70DEB50B1261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62923A88-1AEE-4EE2-A593-70DEB50B1261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62923A88-1AEE-4EE2-A593-70DEB50B1261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62923A88-1AEE-4EE2-A593-70DEB50B1261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AEF699F-A116-43D1-AEE4-C9FE2D042E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AEF699F-A116-43D1-AEE4-C9FE2D042E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AEF699F-A116-43D1-AEE4-C9FE2D042E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AEF699F-A116-43D1-AEE4-C9FE2D042E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0557538D-4B7D-4EC0-A60E-64F2189008B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0557538D-4B7D-4EC0-A60E-64F2189008B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0557538D-4B7D-4EC0-A60E-64F2189008B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0557538D-4B7D-4EC0-A60E-64F2189008B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDAFCFD-DB7E-41A2-AD9F-A70540FA7EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDAFCFD-DB7E-41A2-AD9F-A70540FA7EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDAFCFD-DB7E-41A2-AD9F-A70540FA7EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDAFCFD-DB7E-41A2-AD9F-A70540FA7EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2A9C31B-E07E-44B5-A90E-12D0979D04D5} = {790A0451-1E6D-4CD5-AE75-5D27D0BAEBBC}
+		{62923A88-1AEE-4EE2-A593-70DEB50B1261} = {790A0451-1E6D-4CD5-AE75-5D27D0BAEBBC}
+		{7AEF699F-A116-43D1-AEE4-C9FE2D042E46} = {790A0451-1E6D-4CD5-AE75-5D27D0BAEBBC}
+		{0557538D-4B7D-4EC0-A60E-64F2189008B6} = {790A0451-1E6D-4CD5-AE75-5D27D0BAEBBC}
+	EndGlobalSection
+EndGlobal

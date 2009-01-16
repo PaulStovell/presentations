@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingOriented.Adapters", ".\BindingOriented.Adapters\BindingOriented.Adapters.csproj", "{754109F0-0F3A-45C5-AB97-3A2A153A481F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingOriented.Adapters.Demo", ".\BindingOriented.Adapters.Demo\BindingOriented.Adapters.Demo.csproj", "{4570DA02-20E3-47FC-B114-9BF37E8EB328}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{754109F0-0F3A-45C5-AB97-3A2A153A481F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754109F0-0F3A-45C5-AB97-3A2A153A481F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754109F0-0F3A-45C5-AB97-3A2A153A481F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754109F0-0F3A-45C5-AB97-3A2A153A481F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4570DA02-20E3-47FC-B114-9BF37E8EB328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4570DA02-20E3-47FC-B114-9BF37E8EB328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4570DA02-20E3-47FC-B114-9BF37E8EB328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4570DA02-20E3-47FC-B114-9BF37E8EB328}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

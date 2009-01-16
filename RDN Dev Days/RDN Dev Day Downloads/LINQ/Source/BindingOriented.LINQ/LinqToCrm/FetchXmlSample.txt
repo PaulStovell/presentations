@@ -1,0 +1,9 @@
+﻿<fetch mapping='logical'>
+	<entity name='account'>
+		<attribute name = 'name' />
+		<attribute name = 'accountid' />
+		<filter type='and'>
+			<condition attribute = 'createdon' operator='last-seven-days' />
+		</filter>
+	</entity>
+</fetch>

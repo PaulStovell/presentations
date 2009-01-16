@@ -1,0 +1,35 @@
+﻿<Page x:Class="SampleApplication.Pages.Binding.BindingExamplePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Binding to Objects"
+    xmlns:paul="clr-namespace:SampleApplication.Pages.Binding"
+    >
+    <Page.Resources>
+
+        <paul:UppercaseConverter x:Key="MyConverter" />
+        
+    </Page.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row="1" Margin="7">First Name:</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="2" Margin="7">Last Name:</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="3" Margin="7">Full Name:</TextBlock>
+        
+        
+        <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Path=FirstName, Converter={StaticResource MyConverter}}" Width="200" Margin="7" />
+        <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Path=LastName, Converter={StaticResource MyConverter}}" Width="200" Margin="7" />
+        <TextBlock Grid.Column="1" Grid.Row="3" Margin="7" Text="{Binding Path=FullName}" />
+    </Grid>
+</Page>

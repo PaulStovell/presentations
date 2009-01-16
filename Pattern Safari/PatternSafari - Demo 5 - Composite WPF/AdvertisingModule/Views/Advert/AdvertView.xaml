@@ -1,0 +1,16 @@
+﻿<UserControl 
+    x:Class="Advertising.Views.Advert.AdvertView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+    <UserControl.Resources>
+        <ImageSource x:Key="Advert0">Images/1.jpg</ImageSource>
+        <ImageSource x:Key="Advert1">Images/2.jpg</ImageSource>
+        <ImageSource x:Key="Advert2">Images/3.jpg</ImageSource>
+    </UserControl.Resources>
+    <Grid>
+        <Image Stretch="Fill" Source="{StaticResource Advert2}" Height="1000" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="_image">
+            
+        </Image>
+    </Grid>
+</UserControl>

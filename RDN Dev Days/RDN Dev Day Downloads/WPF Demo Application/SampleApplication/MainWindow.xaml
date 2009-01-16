@@ -1,0 +1,47 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    x:Class="SampleApplication.MainWindow"
+    Title="{Binding ElementName=_frame, Path=Content.Title}"
+    Width="800"
+    Height="600"
+    WindowState="Maximized"
+    WindowStartupLocation="CenterScreen"
+    Style="{StaticResource {x:Type Window}}"
+    >
+    <Window.Resources>
+
+        <Storyboard x:Key="Local_FadeOutFrameStoryboard">
+        </Storyboard>
+
+        <Storyboard x:Key="Local_FadeInFrameStoryboard">
+            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0.00" Duration="0:0:0.1" />
+            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1.00" Duration="0:0:0.5" />
+        </Storyboard>
+        
+    </Window.Resources>
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Top">
+            <Image DockPanel.Dock="Right" Style="{StaticResource Image_ClickableImage}" MouseDown="ExitImage_Clicked" VerticalAlignment="Center" Margin="7" Width="48" Height="48" Source="Images\logout.png" Stretch="Fill"/>
+            <StackPanel Orientation="Horizontal">
+                <Image Style="{StaticResource Image_ClickableImage}" MouseDown="HomeImage_Clicked" VerticalAlignment="Center" Margin="7" Width="48" Height="48" Source="Images\home.png" Stretch="Fill"/>
+                <Slider VerticalAlignment="Center" Margin="7" x:Name="_slider" Width="100" Value="1.00" />
+            </StackPanel>
+        </DockPanel>
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+
+            <Border Margin="7" CornerRadius="21" Padding="21" Background="#EE000000">
+                <Frame Navigating="Frame_Navigating" Navigated="Frame_Navigated" x:Name="_frame">
+                    <Frame.RenderTransform>
+                        <ScaleTransform
+                            CenterX="0"
+                            CenterY="0"
+                            ScaleX="{Binding Path=Value, Mode=Default, ElementName=_slider}"
+                            ScaleY="{Binding Path=Value, Mode=Default, ElementName=_slider}"
+                            />
+                    </Frame.RenderTransform>
+                </Frame>
+            </Border>
+        </ScrollViewer>
+    </DockPanel>
+</Window>

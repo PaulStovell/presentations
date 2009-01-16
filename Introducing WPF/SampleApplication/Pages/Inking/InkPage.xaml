@@ -1,0 +1,13 @@
+﻿<Page x:Class="SampleApplication.Pages.Inking.InkPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Inking"
+    >
+    <DockPanel>
+        <TextBlock DockPanel.Dock="Bottom" x:Name="_inkResults" Margin="7" />
+        
+        <InkCanvas x:Name="_inkCanvas" StrokeCollected="InkCanvas_StrokeCollected">
+
+        </InkCanvas>
+    </DockPanel>
+</Page>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="9" />
+  <Class Name="TimesheetEntrySystem.DomainModel.Consultant" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contexts\Timesheeting\Entities\Consultant.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimesheetEntrySystem.DomainModel.Customer" Collapsed="true">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contexts\Timesheeting\Entities\Customer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimesheetEntrySystem.DomainModel.Entity" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contexts\Timesheeting\Entities\Entity.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimesheetEntrySystem.DomainModel.Invoice" Collapsed="true">
+    <Position X="10.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contexts\Timesheeting\Entities\Invoice.cs</FileName>
+      <HashCode>AAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Customer" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Timesheets" />
+    </ShowAsCollectionAssociation>
+    <AssociationLine Name="Customer" Type="TimesheetEntrySystem.DomainModel.Customer">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.311" Y="-0.301" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Timesheets" Type="TimesheetEntrySystem.DomainModel.Timesheet">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.205" Y="-0.062" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="TimesheetEntrySystem.DomainModel.Timesheet">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contexts\Timesheeting\Entities\Timesheet.cs</FileName>
+      <HashCode>AAEAAAAAIAAAAKEAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Consultant" />
+      <Property Name="Customer" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Entries" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Consultant" Type="TimesheetEntrySystem.DomainModel.Consultant">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="1.911" Y="-0.324" Height="0.182" Width="1.016" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Customer" Type="TimesheetEntrySystem.DomainModel.Customer">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.577" Y="1.342" Height="0.182" Width="0.884" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Entries" Type="TimesheetEntrySystem.DomainModel.TimesheetEntry">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.236" Y="-0.337" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="TimesheetEntrySystem.DomainModel.TimesheetEntry">
+    <Position X="11.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contexts\Timesheeting\Entities\TimesheetEntry.cs</FileName>
+      <HashCode>AAACAAAAIAAQAAAAAAFAIgAAAAABAAAAAAIAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="TimesheetEntrySystem.DomainModel.Services.InvoiceGenerator" Collapsed="true">
+    <Position X="13" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Contexts\Timesheeting\Services\InvoiceGenerator.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimesheetEntrySystem.DomainModel.Services.ExceptionReporter" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Services\ExceptionReporter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimesheetEntrySystem.DomainModel.Services.ObjectPool" Collapsed="true">
+    <Position X="13.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Services\ObjectPool.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimesheetEntrySystem.DomainModel.Services.Log" Collapsed="true">
+    <Position X="13.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Services\Log.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

@@ -1,0 +1,27 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Data="clr-namespace:SearchApplication.Data"
+    >
+    
+    <DataTemplate DataType="{x:Type Data:Contact}">
+        <Border Margin="3">
+            <StackPanel>
+                <WrapPanel>
+                    <TextBlock Text="{Binding Path=FirstName}" FontWeight="Bold" />
+                    <TextBlock Text=" " />
+                    <TextBlock Text="{Binding Path=LastName}" FontWeight="Bold" />
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock Text="Email: " Foreground="Gray" />
+                    <TextBlock Text="{Binding Path=EmailAddress}" />
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock Text="Phone: " Foreground="Gray" />
+                    <TextBlock Text="{Binding Path=Phone}" />
+                </WrapPanel>
+            </StackPanel>
+        </Border>
+    </DataTemplate>
+    
+</ResourceDictionary>

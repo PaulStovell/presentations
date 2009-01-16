@@ -1,0 +1,214 @@
+
+
+
+
+              PAUL  STOVELL
+           www.paulstovell.net
+           
+      Senior Developer | Readify
+  MVP: Client Application Development
+  
+  
+  
+  
+  
+  
+  
+   BINDING ORIENTED PROGRAMMING
+   
+   
+   
+   
+   
+   
+    AGENDA
+         
+  - Binding Basics
+
+  - What is Binding Oriented Programming?
+  
+  - Example: Windows Forms Search Query
+  
+  - Example: Windows Forms Drop-downs
+  
+  - Example: WPF Search Query
+  
+  - Asynchronous binding
+  
+  - Ruby! Rails! Oh my!
+  
+  
+
+  
+
+
+
+
+
+
+        txtName.Text = customer.Name
+        
+                    ...
+        
+        customer.Name = txtName.Text
+
+
+
+
+
+
+
+            HOW WOULD YOU DO IT?
+
+
+
+
+
+
+
+
+
+
+
+
+
+      - INotifyPropertyChanged
+        
+        Allows an OBJECT to notify a TARGET 
+        that one of its properties have 
+        changed.
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      - INotifyCollectionChanged (.NET 3.0)
+      - IBindingList 
+        
+        Allow a COLLECTION to notify a TARGET
+        that its items have changed.
+        
+        
+        
+       
+       
+       
+      
+        
+        
+        
+        
+        
+        
+      - IDataErrorInfo
+        
+        Allows an OBJECT to tell a TARGET 
+        that it has errors.
+        
+        
+        
+        
+     
+        http://www.codeproject.com/csharp/DelegateBusinessObjects.asp
+        http://www.codeproject.com/WPF/wpfErrorProvider.asp
+        http://www.codeproject.com/useritems/customerrorproviders.asp
+           
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        BINDING ORIENTED PROGRAMMING
+        
+        TRENDS:
+        
+      - "UI code isn't designed, it happens"
+      
+      - UI requirements becoming more COMPLEX
+        
+      - CODE becoming UNMAINTAINABLE
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        Laws of BINDING ORIENTED PROGRAMMING
+        
+        
+      - Codebehind is BAD
+        
+      - Synchronization MATTERS
+      
+      - Prefer a "pull" approach to a "push" 
+        approach
+        
+      - UI Driven Development
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        Search Query: REQUIREMENTS
+        
+        
+   1. Fill in First and Last name, click SEARCH
+   
+   2. Clicking “Cancel” stops the search.
+   
+   3. TYPING stops the search.
+   
+   4. Search is ASYNC.
+   
+   5. Display progress bar ONLY WHILE 
+      SEARCHING
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        MORE INFORMATION?
+        
+        www.paulstovell.net
+        
+        www.sdnug.org
+        
+
+
+

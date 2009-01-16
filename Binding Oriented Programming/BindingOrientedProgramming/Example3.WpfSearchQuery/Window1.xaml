@@ -1,0 +1,99 @@
+﻿<Window 
+    x:Class="Example3.WpfSearchQuery.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Example3.WpfSearchQuery"
+    Height="600" 
+    Width="800"
+    x:Name="_this"
+    DataContext="{Binding ElementName=_this, Path=CustomerSearchQuery}"
+    >
+    <Window.Resources>
+
+        <local:StringFormatConverter x:Key="Converter_StringFormat" />
+        
+        <BooleanToVisibilityConverter x:Key="Converter_BooleanToVisibility"/>
+
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="Margin" Value="7" />
+            <Setter Property="FontSize" Value="12pt" />
+        </Style>
+
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Margin" Value="7" />
+            <Setter Property="FontSize" Value="12pt" />
+        </Style>
+
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Margin" Value="7" />
+            <Setter Property="FontSize" Value="12pt" />
+        </Style>
+
+        <Style TargetType="{x:Type ListBox}">
+            <Setter Property="Margin" Value="7" />
+        </Style>
+
+        <Style TargetType="{x:Type ProgressBar}">
+            <Setter Property="Margin" Value="7" />
+        </Style>
+
+        <DataTemplate DataType="{x:Type local:Customer}">
+            <Border Margin="7">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="7" Width="50" Text="{Binding Path=FirstName}" />
+                    <TextBlock Margin="7" Width="50" Text="{Binding Path=LastName}" />
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+        
+    </Window.Resources>
+
+    <Window.Title>
+        <MultiBinding ConverterParameter="Searching for: {0} {1}"  Converter="{StaticResource Converter_StringFormat}">
+            <Binding Path="FirstName" />
+            <Binding Path="LastName" />
+        </MultiBinding>
+    </Window.Title>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="0" Grid.Column="0">First name:</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0">Last name:</TextBlock>
+
+        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Path=FirstName, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Path=LastName, UpdateSourceTrigger=PropertyChanged}" />
+
+        <Button Grid.Row="0" Grid.Column="2" Click="SearchButton_Clicked">Search</Button>
+        <Button Grid.Row="1" Grid.Column="2" IsEnabled="{Binding Path=IsSearching}" Click="CancelButton_Clicked">Cancel</Button>
+
+        <ProgressBar 
+            Grid.Row="2" 
+            Grid.Column="0" 
+            Grid.ColumnSpan="3" 
+            Height="30"
+            Visibility="{Binding Path=IsSearching, Converter={StaticResource Converter_BooleanToVisibility}}" 
+            Value="{Binding Path=Progress}"
+            />
+        
+        <ListBox 
+            Grid.Row="3" 
+            Grid.Column="0"
+            Grid.ColumnSpan="3" 
+            ItemsSource="{Binding Path=SearchResults}"
+            >
+            
+        </ListBox>
+    </Grid>
+</Window>
