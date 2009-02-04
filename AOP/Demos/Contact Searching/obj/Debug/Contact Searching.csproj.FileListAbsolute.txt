@@ -1,6 +1,0 @@
-T:\Code\Personal\presentations\AOP\Demos\Contact Searching\obj\Debug\ResolveAssemblyReference.cache
-T:\Code\Personal\presentations\AOP\Demos\Contact Searching\bin\Debug\Demo0.exe.config
-T:\Code\Personal\presentations\AOP\Demos\Contact Searching\bin\Debug\Demo0.exe
-T:\Code\Personal\presentations\AOP\Demos\Contact Searching\bin\Debug\Demo0.pdb
-T:\Code\Personal\presentations\AOP\Demos\Contact Searching\obj\Debug\Demo0.exe
-T:\Code\Personal\presentations\AOP\Demos\Contact Searching\obj\Debug\Demo0.pdb
