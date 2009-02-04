@@ -1,0 +1,17 @@
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Demo.exe
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Demo.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\obj\Debug\ResolveAssemblyReference.cache
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\obj\Debug\Demo.exe
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\obj\Debug\Demo.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.Core.dll
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.DynamicProxy2.dll
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.MicroKernel.dll
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.Windsor.dll
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.Windsor.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.Windsor.xml
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.Core.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.Core.xml
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.DynamicProxy2.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.DynamicProxy2.xml
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.MicroKernel.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Circuit Breaker\bin\Debug\Castle.MicroKernel.xml

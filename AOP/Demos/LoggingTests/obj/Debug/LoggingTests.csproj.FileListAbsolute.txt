@@ -1,0 +1,9 @@
+T:\Code\Personal\presentations\AOP\Demos\LoggingTests\bin\Debug\LoggingTests.dll
+T:\Code\Personal\presentations\AOP\Demos\LoggingTests\bin\Debug\LoggingTests.pdb
+T:\Code\Personal\presentations\AOP\Demos\LoggingTests\bin\Debug\Demo.exe
+T:\Code\Personal\presentations\AOP\Demos\LoggingTests\bin\Debug\PostSharp.Public.dll
+T:\Code\Personal\presentations\AOP\Demos\LoggingTests\bin\Debug\PostSharp.Laos.dll
+T:\Code\Personal\presentations\AOP\Demos\LoggingTests\bin\Debug\Demo.pdb
+T:\Code\Personal\presentations\AOP\Demos\LoggingTests\obj\Debug\ResolveAssemblyReference.cache
+T:\Code\Personal\presentations\AOP\Demos\LoggingTests\obj\Debug\LoggingTests.dll
+T:\Code\Personal\presentations\AOP\Demos\LoggingTests\obj\Debug\LoggingTests.pdb

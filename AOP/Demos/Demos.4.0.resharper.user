@@ -1,0 +1,199 @@
+<Configuration>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="287304D5-AF6F-453D-9423-C4D804158499/d:Aspects/f:NotNullAttribute.cs" caret="70" scrollPosition="0|0" />
+      <File id="287304D5-AF6F-453D-9423-C4D804158499/d:Aspects/f:AbstractParameterValidationAttribute.cs" caret="405" scrollPosition="0|0" />
+      <File id="5E538777-B15E-42FA-95EF-D2AC89AA5BF9/f:Program.cs" caret="803" scrollPosition="0|0" />
+      <File id="5E538777-B15E-42FA-95EF-D2AC89AA5BF9/d:Interceptors/f:CircuitBreakerInterceptor.cs" caret="0" scrollPosition="0|31" />
+      <File id="5E538777-B15E-42FA-95EF-D2AC89AA5BF9/f:IVeryBadDataLayer.cs" caret="40" scrollPosition="0|0" />
+      <File id="5E538777-B15E-42FA-95EF-D2AC89AA5BF9/f:Customer.cs" caret="36" scrollPosition="0|0" />
+      <File id="5E538777-B15E-42FA-95EF-D2AC89AA5BF9/f:VeryBadDataLayer.cs" caret="90" scrollPosition="0|0" />
+      <File id="287304D5-AF6F-453D-9423-C4D804158499/f:Program.cs" caret="276" scrollPosition="0|0" />
+      <File id="599B554A-9640-4D46-8C1F-CE8590466427/f:IContentGenerator.cs" caret="50" scrollPosition="0|0" />
+      <File id="599B554A-9640-4D46-8C1F-CE8590466427/f:ContentGenerator.cs" caret="128" scrollPosition="0|0" />
+      <File id="599B554A-9640-4D46-8C1F-CE8590466427/f:CacheInterceptor.cs" caret="130" scrollPosition="0|0" />
+      <File id="599B554A-9640-4D46-8C1F-CE8590466427/f:Program.cs" caret="92" scrollPosition="0|0" />
+      <File id="599B554A-9640-4D46-8C1F-CE8590466427/f:CacheAttribute.cs" caret="153" scrollPosition="0|0" />
+      <File id="A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180/f:app.config" caret="310" scrollPosition="0|0" />
+      <File id="A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180/f:IContactSearchService.cs" caret="31" scrollPosition="0|0" />
+      <File id="A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180/d:Aspects/f:LogAspect.cs" caret="131" scrollPosition="0|0" />
+      <File id="A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180/f:ContactSearchService.cs" caret="153" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:IContactSearchService.cs" caret="0" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/d:Handlers/f:LoggingCallHandler.cs" caret="393" scrollPosition="0|0" />
+      <File id="DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D/f:Program.cs" caret="94" scrollPosition="0|0" />
+      <File id="DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D/f:IContactSearchService.cs" caret="16" scrollPosition="0|0" />
+      <File id="DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D/f:ContactSearchService.cs" caret="83" scrollPosition="0|0" />
+      <File id="DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D/d:Interceptors/f:LogInterceptor.cs" caret="96" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:ContactSearchService.cs" caret="93" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:app.config" caret="680" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:Program.cs" caret="366" scrollPosition="0|0" />
+      <File id="9FD421BB-CD93-4009-9905-62B2D74AC7E3/f:Program.cs" caret="44" scrollPosition="0|0" />
+      <File id="9FD421BB-CD93-4009-9905-62B2D74AC7E3/f:IContactSearchService.cs" caret="0" scrollPosition="0|0" />
+      <File id="9FD421BB-CD93-4009-9905-62B2D74AC7E3/f:ContactSearchService.cs" caret="109" scrollPosition="0|0" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="1079" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/d:Handlers/f:LoggingCallHandler.cs" caret="393" scrollPosition="0|15" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/d:Handlers/f:LoggingCallHandler.cs" caret="393" scrollPosition="0|15" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:ContactSearchService.cs" caret="36" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:ContactSearchService.cs" caret="36" scrollPosition="0|0" />
+      <File id="A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180/f:IContactSearchService.cs" caret="31" scrollPosition="0|0" />
+      <File id="A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180/f:ContactSearchService.cs" caret="54" scrollPosition="0|0" />
+      <File id="A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180/f:ContactSearchService.cs" caret="281" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:Program.cs" caret="106" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:IContactSearchService.cs" caret="0" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:ContactSearchService.cs" caret="36" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/d:Handlers/f:LoggingCallHandler.cs" caret="393" scrollPosition="0|0" />
+      <File id="DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D/f:Program.cs" caret="94" scrollPosition="0|0" />
+      <File id="DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D/f:IContactSearchService.cs" caret="16" scrollPosition="0|0" />
+      <File id="DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D/f:ContactSearchService.cs" caret="83" scrollPosition="0|0" />
+      <File id="DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D/d:Interceptors/f:LogInterceptor.cs" caret="96" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:app.config" caret="1605" scrollPosition="0|0" />
+      <File id="A0527D9F-E35B-434C-81EE-1B962992D350/f:app.config" caret="1021" scrollPosition="0|0" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="232" scrollPosition="0|0" />
+      <File id="9FD421BB-CD93-4009-9905-62B2D74AC7E3/f:Program.cs" caret="44" scrollPosition="0|0" />
+      <File id="9FD421BB-CD93-4009-9905-62B2D74AC7E3/f:IContactSearchService.cs" caret="0" scrollPosition="0|0" />
+      <File id="9FD421BB-CD93-4009-9905-62B2D74AC7E3/f:ContactSearchService.cs" caret="109" scrollPosition="0|0" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="3144" scrollPosition="0|6" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="15" scrollPosition="0|1" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="304" scrollPosition="0|0" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="775" scrollPosition="0|0" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="2664" scrollPosition="0|0" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="1433" scrollPosition="0|10" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="1990" scrollPosition="0|21" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="2664" scrollPosition="0|21" />
+      <File id="4CE6E989-54DC-48EA-BEE6-3DD763015F41/f:Program.cs" caret="802" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="AdventureWorksDataContext" priority="0" />
+      <Item value="WriteLine" priority="11" />
+      <Item value="Indent" priority="1" />
+      <Item value="Unindent" priority="1" />
+      <Item value="Dispose" priority="0" />
+      <Item value="TraceError" priority="1" />
+      <Item value="ToString" priority="3" />
+      <Item value="Contacts" priority="0" />
+      <Item value="FirstName" priority="4" />
+      <Item value="LastName" priority="1" />
+      <Item value="StartsWith" priority="0" />
+      <Item value="ToArray" priority="0" />
+      <Item value="EmailAddress" priority="1" />
+      <Item value="ContactSearchService" priority="4" />
+      <Item value="FindByName" priority="2" />
+      <Item value="ReadKey" priority="3" />
+      <Item value="Take" priority="0" />
+      <Item value="Listeners" priority="0" />
+      <Item value="Add" priority="3" />
+      <Item value="ConsoleTraceListener" priority="0" />
+      <Item value="ToList" priority="0" />
+      <Item value="Name" priority="7" />
+      <Item value="Exception" priority="2" />
+      <Item value="DeclaringType" priority="1" />
+      <Item value="FullName" priority="0" />
+      <Item value="WriteLineIf" priority="0" />
+      <Item value="logMessage" priority="7" />
+      <Item value="AppendLine" priority="1" />
+      <Item value="Method" priority="14" />
+      <Item value="AppendFormat" priority="0" />
+      <Item value="GetReadOnlyArgumentArray" priority="0" />
+      <Item value="Append" priority="5" />
+      <Item value="arguments" priority="3" />
+      <Item value="Length" priority="3" />
+      <Item value="eventArgs" priority="2" />
+      <Item value="GetParameters" priority="0" />
+      <Item value="AttributeTargetElements" priority="0" />
+      <Item value="Class" priority="0" />
+      <Item value="AttributeTargets" priority="1" />
+      <Item value="Assembly" priority="0" />
+      <Item value="Proceed" priority="2" />
+      <Item value="Arguments" priority="0" />
+      <Item value="invocation" priority="12" />
+      <Item value="AddComponent" priority="3" />
+      <Item value="Resolve" priority="3" />
+      <Item value="IContactSearchService" priority="0" />
+      <Item value="Format" priority="0" />
+      <Item value="Customer" priority="2" />
+      <Item value="PropertyChanged" priority="0" />
+      <Item value="PropertyName" priority="0" />
+      <Item value="CustomerId" priority="0" />
+      <Item value="NewGuid" priority="1" />
+      <Item value="object" priority="0" />
+      <Item value="Sleep" priority="2" />
+      <Item value="Dictionary&lt;MethodInfo,object&gt;" priority="0" />
+      <Item value="ContainsKey" priority="1" />
+      <Item value="Expiry" priority="0" />
+      <Item value="Now" priority="6" />
+      <Item value="ReturnValue" priority="3" />
+      <Item value="CacheEntry" priority="0" />
+      <Item value="AddSeconds" priority="1" />
+      <Item value="newEntry" priority="0" />
+      <Item value="container" priority="0" />
+      <Item value="GenerateContent" priority="0" />
+      <Item value="GetCustomAttributes" priority="0" />
+      <Item value="MethodInvocationTarget" priority="0" />
+      <Item value="VeryBadDataLayer" priority="1" />
+      <Item value="GetCustomers" priority="0" />
+      <Item value="Message" priority="0" />
+      <Item value="Dictionary&lt;string,Circuit&gt;" priority="0" />
+      <Item value="string" priority="0" />
+      <Item value="circuitName" priority="0" />
+      <Item value="Circuit" priority="0" />
+      <Item value="circuit" priority="2" />
+      <Item value="IsBroken" priority="0" />
+      <Item value="List&lt;DateTime&gt;" priority="0" />
+      <Item value="MinValue" priority="0" />
+      <Item value="Subtract" priority="0" />
+      <Item value="TotalMilliseconds" priority="0" />
+      <Item value="IsOffline" priority="0" />
+      <Item value="QueueUserWorkItem" priority="0" />
+      <Item value="AutoResetEvent" priority="0" />
+      <Item value="SetAccessControl" priority="0" />
+      <Item value="WaitOne" priority="0" />
+      <Item value="RecordTimeout" priority="0" />
+      <Item value="customers" priority="0" />
+      <Item value="CopyTo" priority="0" />
+      <Item value="TimeoutException" priority="0" />
+      <Item value="ApplicationException" priority="0" />
+      <Item value="exception" priority="2" />
+      <Item value="HandlerPipeline" priority="0" />
+      <Item value="MethodBase" priority="1" />
+      <Item value="Count" priority="1" />
+      <Item value="getNext" priority="1" />
+      <Item value="Create" priority="1" />
+      <Item value="EnterpriseLibrary" priority="0" />
+      <Item value="Common" priority="0" />
+      <Item value="Demo1" priority="0" />
+      <Item value="Demo2" priority="0" />
+      <Item value="Wrap" priority="0" />
+      <Item value="Interceptors" priority="0" />
+      <Item value="stopwatch" priority="2" />
+      <Item value="Start" priority="0" />
+      <Item value="callback" priority="0" />
+      <Item value="Stop" priority="0" />
+      <Item value="ElapsedMilliseconds" priority="0" />
+      <Item value="Collect" priority="0" />
+      <Item value="WaitForPendingFinalizers" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

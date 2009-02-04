@@ -1,0 +1,49 @@
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\obj\Debug\ResolveAssemblyReference.cache
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Logging Performance Test.exe
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Logging Performance Test.pdb
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.Core.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.DynamicProxy2.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.MicroKernel.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.Windsor.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Demo1.exe
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Demo2.exe
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Demo3.exe
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.CallHandlers.Configuration.Design.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.CallHandlers.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.Configuration.Design.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Configuration.Design.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\PostSharp.Laos.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.Unity.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\PostSharp.Public.dll
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.DynamicProxy2.pdb
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.DynamicProxy2.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.Core.pdb
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.Core.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.MicroKernel.pdb
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.MicroKernel.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Configuration.Design.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Demo1.pdb
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Demo3.pdb
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Demo2.pdb
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.Windsor.pdb
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Castle.Windsor.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\obj\Debug\Logging Performance Test.exe
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\obj\Debug\Logging Performance Test.pdb
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Demo0.exe
+T:\Code\Personal\presentations\AOP\Demos\Logging Performance Test\bin\Debug\Demo0.pdb

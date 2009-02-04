@@ -1,0 +1,17 @@
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\obj\Debug\ResolveAssemblyReference.cache
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle Caching.exe
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle Caching.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.Core.dll
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.DynamicProxy2.dll
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.MicroKernel.dll
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.Windsor.dll
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.Windsor.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.Windsor.xml
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.Core.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.Core.xml
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.DynamicProxy2.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.DynamicProxy2.xml
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.MicroKernel.pdb
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\bin\Debug\Castle.MicroKernel.xml
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\obj\Debug\Castle Caching.exe
+T:\Code\Personal\presentations\AOP\Demos\Castle Caching\obj\Debug\Castle Caching.pdb

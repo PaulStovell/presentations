@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Logging", "02. Logging", "{A7A8846A-1E86-487F-8031-7F3757A96535}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Real-world", "03. Real-world", "{47482A52-1758-40E6-9F13-898C1667AF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging with PostSharp", "Logging with PostSharp\Logging with PostSharp.csproj", "{A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Old Way", "01. Old Way", "{502DD9FB-1554-4505-8BBB-210A52DDBE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact Searching", "Contact Searching\Contact Searching.csproj", "{9FD421BB-CD93-4009-9905-62B2D74AC7E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging with Castle", "Logging with Castle\Logging with Castle.csproj", "{DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp INotifyPropertyChanged", "PostSharp INotifyPropertyChanged\PostSharp INotifyPropertyChanged.csproj", "{B5D8D727-C8EE-41CD-BC76-A7943E023052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp Parameter Validation", "PostSharp Parameter Validation\PostSharp Parameter Validation.csproj", "{287304D5-AF6F-453D-9423-C4D804158499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Castle Caching", "Castle Caching\Castle Caching.csproj", "{599B554A-9640-4D46-8C1F-CE8590466427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Castle Circuit Breaker", "Castle Circuit Breaker\Castle Circuit Breaker.csproj", "{5E538777-B15E-42FA-95EF-D2AC89AA5BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging with Policy Injection", "Logging with Policy Injection\Logging with Policy Injection.csproj", "{A0527D9F-E35B-434C-81EE-1B962992D350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging Performance Test", "Logging Performance Test\Logging Performance Test.csproj", "{4CE6E989-54DC-48EA-BEE6-3DD763015F41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD421BB-CD93-4009-9905-62B2D74AC7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD421BB-CD93-4009-9905-62B2D74AC7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD421BB-CD93-4009-9905-62B2D74AC7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD421BB-CD93-4009-9905-62B2D74AC7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D8D727-C8EE-41CD-BC76-A7943E023052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D8D727-C8EE-41CD-BC76-A7943E023052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D8D727-C8EE-41CD-BC76-A7943E023052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D8D727-C8EE-41CD-BC76-A7943E023052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287304D5-AF6F-453D-9423-C4D804158499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287304D5-AF6F-453D-9423-C4D804158499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287304D5-AF6F-453D-9423-C4D804158499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287304D5-AF6F-453D-9423-C4D804158499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599B554A-9640-4D46-8C1F-CE8590466427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599B554A-9640-4D46-8C1F-CE8590466427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599B554A-9640-4D46-8C1F-CE8590466427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599B554A-9640-4D46-8C1F-CE8590466427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E538777-B15E-42FA-95EF-D2AC89AA5BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E538777-B15E-42FA-95EF-D2AC89AA5BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E538777-B15E-42FA-95EF-D2AC89AA5BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E538777-B15E-42FA-95EF-D2AC89AA5BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0527D9F-E35B-434C-81EE-1B962992D350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0527D9F-E35B-434C-81EE-1B962992D350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0527D9F-E35B-434C-81EE-1B962992D350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0527D9F-E35B-434C-81EE-1B962992D350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE6E989-54DC-48EA-BEE6-3DD763015F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE6E989-54DC-48EA-BEE6-3DD763015F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE6E989-54DC-48EA-BEE6-3DD763015F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE6E989-54DC-48EA-BEE6-3DD763015F41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3B8DC2B-93A3-4CD0-BECB-FBF3E6C76180} = {A7A8846A-1E86-487F-8031-7F3757A96535}
+		{DC25C9F9-61B6-437F-BA0A-8A2D114BFA1D} = {A7A8846A-1E86-487F-8031-7F3757A96535}
+		{A0527D9F-E35B-434C-81EE-1B962992D350} = {A7A8846A-1E86-487F-8031-7F3757A96535}
+		{4CE6E989-54DC-48EA-BEE6-3DD763015F41} = {A7A8846A-1E86-487F-8031-7F3757A96535}
+		{B5D8D727-C8EE-41CD-BC76-A7943E023052} = {47482A52-1758-40E6-9F13-898C1667AF40}
+		{287304D5-AF6F-453D-9423-C4D804158499} = {47482A52-1758-40E6-9F13-898C1667AF40}
+		{599B554A-9640-4D46-8C1F-CE8590466427} = {47482A52-1758-40E6-9F13-898C1667AF40}
+		{5E538777-B15E-42FA-95EF-D2AC89AA5BF9} = {47482A52-1758-40E6-9F13-898C1667AF40}
+		{9FD421BB-CD93-4009-9905-62B2D74AC7E3} = {502DD9FB-1554-4505-8BBB-210A52DDBE22}
+	EndGlobalSection
+EndGlobal
